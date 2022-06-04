@@ -1,0 +1,10 @@
+An ncurses game about moving a ball through a blooming minefield to collect tokens.
+
+Controls (vim-direction keys) allow users to alter their x and y velocities
+independently, providing a fun challenge.
+
+Menu at beginning enables user to select either
+- slow,
+- fast, or
+- custom speed (entered with number keys on a new screen)
+
