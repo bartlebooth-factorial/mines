@@ -147,7 +147,7 @@ enter_custom_speed(WINDOW *win)
 	while (1)
 	{
 		clear();
-		mvprintw(0, 0, buf);
+		mvprintw(0, 0, "%s", buf);
 		mvprintw(max_y / 2, 0, "Enter speed (redraw delay in microseconds) (x to delete, q to quit)");
 		mvprintw(max_y / 2 + 2, 0, "[Default slow speed is 100k, default fast speed is 30k]");
 		refresh();
