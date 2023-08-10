@@ -12,10 +12,10 @@
 #define SLOW_DELAY 100000  // redraw delay of 100k microseconds (slow speed)
 #define FAST_DELAY 30000   // redraw delay of 30k microseconds (fast speed)
 enum {
-	CHOICE_SLOW,           // choice code for slow speed
-	CHOICE_FAST,           // choice code for fast speed
-	CHOICE_CUSTOM,         // choice code for custom speed
-	CHOICE_EXIT            // choice code for exiting on speed selection menu
+	CHOICE_SLOW,       // choice code for slow speed
+	CHOICE_FAST,       // choice code for fast speed
+	CHOICE_CUSTOM,     // choice code for custom speed
+	CHOICE_EXIT        // choice code for exiting on speed selection menu
 };
 #define BUF_SIZE 16        // size of character buffer into which user enters custom speed value
 #define MINE_DELAY 10      // number of delay ticks until new mine (10 every 3 seconds)
